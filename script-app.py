@@ -25,7 +25,7 @@ def app():
         return encoded
 
     header_html = "<img src='data:image/png;base64,{}' class='img-fluid'>".format(
-        img_to_bytes("kinal.png")
+        img_to_bytes("tinal.png")
     )
     st.markdown(
         header_html, unsafe_allow_html=True,
