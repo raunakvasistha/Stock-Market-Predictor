@@ -6,7 +6,9 @@ The problem statement we seek to dwell upon in this project revolves around two 
 To see how different ML models wrap-around stock prices and find out which suits it the most both in regression and classification
 Then analyze the share for India's largest conglomerate “Reliance Industries” and see how far we can stretch the model by only using data from the years 2017-2019.
 This involves :
+
 i. Predicting the stock price to a certain extent(regression)
 ii. Give trading calls till some extent(classification)
+
 To ensure the utmost reliability of the experiment the time of the dataset was taken to be 2017-2018 this was done so that the unusual market that was 
 seen during the times of covid can be avoided and hence the major outlying consistency could be avoided.
