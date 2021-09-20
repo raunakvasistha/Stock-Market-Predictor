@@ -76,7 +76,7 @@ def app():
             from sklearn import datasets, linear_model, metrics
             from sklearn.model_selection import train_test_split
             data = pd.read_csv(
-                "C:\\Users\\rauna\\Desktop\\New folder\\Script\\Mldataset.csv")
+                "https://github.com/raunakvasistha/Stock-Market-Predictor/blob/13acaa355336ea3b6e1d6ba678d4dc94eb1da1b7/MLdataset.csv")
             dataset = data
 
             st.success("Running Model ")
