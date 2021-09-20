@@ -25,7 +25,7 @@ def app():
         return encoded
 
     header_html = "<img src='data:image/png;base64,{}' class='img-fluid'>".format(
-        img_to_bytes("final.png")
+        img_to_bytes("https://github.com/raunakvasistha/Stock-Market-Predictor/blob/4a31caf9e70ae5c5562783bd8636a9f49786a13e/Final.png")
     )
     st.markdown(
         header_html, unsafe_allow_html=True,
