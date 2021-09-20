@@ -25,7 +25,7 @@ def app():
         return encoded
 
     header_html = "<img src='data:image/png;base64,{}' class='img-fluid'>".format(
-        img_to_bytes("https://github.com/raunakvasistha/Stock-Market-Predictor/blob/4a31caf9e70ae5c5562783bd8636a9f49786a13e/Final.png")
+        img_to_bytes("Final.png")
     )
     st.markdown(
         header_html, unsafe_allow_html=True,
@@ -75,8 +75,7 @@ def app():
             import matplotlib.pyplot as p
             from sklearn import datasets, linear_model, metrics
             from sklearn.model_selection import train_test_split
-            data = pd.read_csv(
-                "https://github.com/raunakvasistha/Stock-Market-Predictor/blob/13acaa355336ea3b6e1d6ba678d4dc94eb1da1b7/MLdataset.csv")
+            data = pd.read_csv("MLdataset.csv")
             dataset = data
 
             st.success("Running Model ")
