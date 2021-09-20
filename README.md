@@ -8,6 +8,7 @@ Then analyze the share for India's largest conglomerate â€œReliance Industriesâ€
 This involves :
 
 i. Predicting the stock price to a certain extent(regression)
+
 ii. Give trading calls till some extent(classification)
 
 To ensure the utmost reliability of the experiment the time of the dataset was taken to be 2017-2018 this was done so that the unusual market that was 
